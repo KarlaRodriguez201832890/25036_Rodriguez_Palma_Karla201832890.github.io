@@ -1,0 +1,159 @@
+@charset "utf-8";
+nav{
+    background-color: #011F26;
+    height: 72px;
+    margin-top: -18px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav li a{
+    color: #F27505;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Roboto;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: right;
+    padding-left: 136px;
+    padding-top: 26px;
+    font-family: Roboto, "Roboto Bk", "Roboto Cn", "Roboto Lt", "Roboto Th";
+    font-size: 19px;
+}
+.flecha {
+    width: 26px;
+    clear: both;
+    float: left;
+}
+header {
+    background-color: #011F26;
+    color: #F27505;
+    height: 133px;
+    margin-top: -36px;
+    text-align: center;
+    font-family: Roboto, "Roboto Bk", "Roboto Cn", "Roboto Lt", "Roboto Th";
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    font-family: Roboto, "Roboto Bk", "Roboto Cn", "Roboto Lt", "Roboto Th";
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+		
+}
+.logo {
+    width: 104px;
+    float: left;
+    padding-top: 16px;
+    padding-left: 18px;
+}
+
+p{
+    font-size: 19px;
+    text-align: justify;
+}
+.pbio {
+    border: 2px solid #C25604;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+section{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    height: auto;
+    margin-bottom: 29px;
+    padding-bottom: 43px;
+}
+.sconta {
+    background-color: #C25604;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Roboto, "Roboto Bk", "Roboto Cn", "Roboto Lt", "Roboto Th";
+    padding-left: 22px;
+    padding-top: 2px;
+    padding-bottom: 11px;
+    margin-bottom: 17px;
+}
+.sconta h3 {
+    text-align: center;
+}
+
+
+footer{
+    color: #F27505;
+    background-color: #011F26;
+    text-align: center;
+    font-family: Roboto, "Roboto Bk", "Roboto Cn", "Roboto Lt", "Roboto Th";
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    text-size: 10px;
+    font-style: italic;
+    height: 65px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+	
+}
+h1{
+    font-size: 51px;
+    padding-top: 45px;
+    text-align: center;
+}
+h3{
+	font-size: 20px; 
+}
+
+.imgredes {
+    width: 11px;
+    margin-right: auto;
+    display: inline-block;
+    padding-top: 0px;
+    margin-top: -123px;
+}
+.imgportada {
+    width: 241px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 17px solid #011F26;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  padding: 10px;
+	border: solid #C25604;
+}
+
+.grid-container > div { 
+  text-align: center;
+  font-size: 30px;
+	
+}
+.ilu {
+    width: 231px;
+}
+.fot{
+    transform: rotate(270deg);
+    width: 231px;
+    margin-top: 75px;
+    margin-left: -39px;
+}
+
+.anma {
+    width: 125px;
+}
