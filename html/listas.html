@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+	<style type="text/css">
+		*{
+		marging: 0px;
+		padding: 0px;
+			
+		}	
+		header,main,nav,footer{
+			marging:0px auto;
+			width: 960px;
+			padding: 30px;
+		}
+		header{
+			width: 960px;
+			height: 30px;
+			background-color: #B86933;
+			padding:30px;
+			text-align: center;
+			color: #DBD21B;
+			
+		}
+		nav{
+			height: 10px;
+			background-color:#F8E265 ; 
+		}
+		main{
+			height: auto;
+			background-color: #89A380;
+		}
+		
+		section{
+			width: 700px;
+				background-color: #F8E265 ;
+				margin: 30px;
+			padding: 30px; 
+		}
+		h2{
+			color: #B86933;
+		}
+		h3{
+			color:  #89A380;
+		}
+		footer{
+			height: 10px;
+			background-color: #F8E265;
+		}
+		footer h5{
+			color: #B86933;
+			text-align: center;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Listas en HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Lista ordenada: Revision de errores cometidos en la redaccion</h2>
+			<ol>
+				<li>organizacion</li>
+				<li>Exactitud de transcripciones</li>
+				<li>Cuestiones gramaticales</li>
+				<li>Formatos</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista desordenada: Lista de super</h2>
+			<ul>
+				<li>Pasta de dientes</li>
+				<li>Shampoo</li>
+				<li>jabon de tocador</li>
+				<li>Sopa</li>
+				<li>Lata de Frutas</li>
+				<li>Pollo</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista mixta: Geografica</h2>
+			<ul>
+				<li>Argentina
+					<ul>
+						<li>Buenos Aires</li>
+						<li>Rio de la plata</li>
+						<li>Belgrano</li>
+					</ul>
+				</li>
+				<li>Bolivia</li>
+				<li>Mexico
+						<ul>
+							<li>Aguascalientes</li>
+							<li>Baja California Sur</li>
+							<li>Colima</li>
+							<li>Durango</li>
+							<li>Puebla</li>
+						</ul>
+				</li>
+				<li>España</li>
+				<li>Italia
+					<ul>
+					<li>Venecia</li>
+					<li>Florencia</li>
+					<li>Roma</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista de descripcion</h2>
+			<dl>
+				<dt>Usabilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsam cupiditate commodi repellat id eum quos enim iusto rem facilis.</dd>
+				<dt>Accesivilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis laboriosam minus commodi ex et laudantium nam error nihil doloremque aperiam. Vero beatae quidem omnis excepturi!</dd>
+				<dt>Servidor web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nostrum veritatis laudantium culpa eos, dolores aut alias nobis nulla laboriosam illum soluta dolore voluptas minima similique praesentium, fuga quia rerum?</dd>
+				<dt>Hosting</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione repellat ut soluta nam distinctio labore voluptate aliquid minima sed molestiae.</dd>
+				<dt>Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illum molestiae aut odit dolore at eum, beatae tempore distinctio rerum nostrum natus, quisquam. Veniam, velit?</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Uso de atributo <b>type</b> para definir estilo de vileta de lista en HTML</h2>
+			<h3>Alfabetico: A,a</h3>
+			<ol type="a">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Romanos: I,i</h3>
+			<ol type="I">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Figura: circle, square, disc</h3>
+			<ul type="square">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Uso de propiedades </h2>
+			<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñetas</h3>
+			<ul style="list-style-type:georgian">
+				<li>Cafe</li>
+				<li>Leche</li>
+				<li>Pan</li>
+				<li>Atun</li>
+				<li>Frijoles</li>
+			</ul>
+			<h3>Uso de la propiedad list-style-image de css para cambiar la viñeta por imagen</h3>
+			<ul style="list-style-image:url(´../img/carita-de-nina.png');">
+				<li>Delfin</li>
+				<li>Morsa</li>
+				<li>Ballena</li>
+			</ul>
+			<h3>Eliminar viñetas de lista</h3>
+			<ul style="list-style-type: none">
+			<li>Gato</li>
+			<li>Leon</li>
+			<li>Tigre </li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Karla Itzel Rodriguez Palma</h5>
+	</footer>
+</body>
+</html>

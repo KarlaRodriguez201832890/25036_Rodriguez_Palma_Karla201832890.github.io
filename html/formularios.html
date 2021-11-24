@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formularios</title>
+<link href="../css/style_one.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1 id="cabecera">Formularios en HTML</h1>
+	</header>
+	<nav id="navegacion">
+		<ul id="navulli">
+			<il><a href="mi_primera_pagina.html" target="_blank">Mi primera pagina</a></il>
+			<il> <a href="Tablas.html" target="_blank">Tablas</a></il>
+			<il> <a href="listas.html" target="_blank">Listas</a></il>
+			<il> <a href="enlases.html" target="_blank">Esnlaces</a></il>
+			<il><a href="imagenes.html" target="_blank">Imagenes</a></il>
+			<il><a href="Imagenes 2.html" target="_blank">Imagenes 2</a></il>
+			<il><a href="audio.html" target="_blank">Audio</a></il>
+			<il><a href="Video.html" target="_blank">Video</a></il>
+			<il><a href="formularios.html" target="_blank">Formularios</a></il>
+			<il><a href="Animaciones.html" target="_blank">Animaciones</a></il>
+		</ul>
+	</nav>
+<main id="main">
+  <section id="section">
+		<h2 id="h1">Formulario basico</h2>
+		<p id="sectionp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, recusandae.</p>
+		<form action="accion_pagina.html" method="get" target="_self" id="form" autocomplete="off">
+			<label>Nombre</label>
+			<input type="text">
+			<br>
+			<label>Apellidos</label>
+			<input type="text"> <br> <br>
+			<input type="submit" value="Enviar">
+	  </form>
+		
+  </section>
+	
+  <section id="section">
+	  <h2 id="h1">Formulario con lista desplegable</h2>
+	  <p id="sectionp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, recusandae.</p>
+	  
+	  <form action="accion_pagina.html" method="post" id="form">
+	  	<label for="nombre"> Nombre</label>
+		  <input type="text" id="nombre" name="nombre" ><br><br><br>
+		  <label for="pais">Pais</label>
+		  <select id="pais" name="pais" size="" ><br><br><br>
+		  <option value="mx">Mexico</option>
+			 <option value="es">España</option>
+			 <option value="it">Italia</option>
+			 <option value="Peru">Peru</option>
+			 <option value="ar">Argentina</option>
+		  </select> <br>
+		  <br>
+		  <br>
+		  
+		  <label for="pais">Que pais has visitado</label>
+		   <select id="pais" name="pais" size="5">
+		  <option value="mx">Mexico</option>
+			 <option value="es">España</option>
+			 <option value="it">Italia</option>
+			 <option value="Peru">Peru</option>
+			 <option value="ar">Argentina</option>
+		  </select> 
+		  <br> <br>
+		  
+		  <input type="submit" value="Enviar">
+	  </form>
+  </section>
+  <section id="section">
+	  <h2 id="h1">Formulario caja de texto</h2>
+	  <p id="sectionp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, recusandae.</p>
+	  <form action="accion_pagina.html" id="form">
+	  <table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="">Nombre</label></td>
+      <td> <input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td> <label for="correo">Correo electronico</label></td>
+      <td><input type="email" id="correo" name="correo"></td>
+    </tr>
+    <tr>
+      <td> <label for="mensaje">Mensaje</label></td>
+      <td> <textarea name="mensaje" rows="5" cols="20">Escribe aqui tu mensaje</textarea></td>
+    </tr>
+  </tbody>
+</table>  
+		<input type="submit" value="Enviar">
+	  </form>
+	  
+  </section>
+	<section id="section">
+	  <h2 id="h1">Formulario utilizando varios tipos de input</h2>
+	  <p id="sectionp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, recusandae.</p>
+		<form action="accion_pagina.html" method="get" id="form">
+			<label for="name">Nombre</label>
+			<input type="text" id="nombre" name="nombre"><br><br><br>
+			<label for="nacimiento">Fecha de nacimiento</label>
+			<input type="date" id="nacimiento" name="nacimiento"><br>
+			<br>
+			<br>
+			<label for="genero">Genero</label> <br>
+			<input type="radio" id="genero1" name="genero1" value="Femenino"><label>Femenino</label>
+			<input type="radio" id="genero2" name="genero2" value="masculino"><label>Masculino</label> <br>
+			<br>
+			<br>
+			<label for="musica">Elige de la lista los generos que mas te gusten</label> <br>
+			<input type="checkbox" id="musica" name="musica" value="pop"><label>Pop</label>
+			<br>
+			<input type="checkbox" id="musica" name="musica" value="rock"><label>Rock</label> 
+			<br>
+			<input type="checkbox" id="musica" name="musica" value="jazz"><label>Jazz</label> <br>
+			<input type="checkbox" id="musica" name="musica" value="alte"><label>Alternativa</label> <br>
+			<input type="checkbox" id="musica" name="musica" value="blues"><label>Blues</label> 
+			<br>
+			<br>
+			<br>
+			<input type="submit" value="Enviar">
+		</form>
+  </section>
+	<section id="section">
+		<h2 id="h1">Formulario de pedido (actividad)</h2>
+		<p id="sectionp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, suscipit.</p>
+		<form action="accion_pagina.html" method="get" target="_self" id="form" autocomplete="off">
+		 
+			<label for="nombre">Nombre</label>
+			<input type="text"> <br>
+			<br>
+			<br>
+			<label for="apellido">Apellidos</label>
+			<input type="text"> <br>
+			<br>
+			<br>
+			<label for="telefono">Numero de telefono</label>
+			<input type="tel" name="tel" id="tel"> <br>
+			<br>
+			<br>
+			<label for="colorf">Selecciona el color para el producto</label>
+			<input type="color" name="color" id="color"> <br>
+			<br>
+			<br>
+		  <label for="ntalla">Numero de talla</label>
+			<input type="number" name="number" id="number"> <br>
+			<br>
+			<br>
+		  <label for="date">Fecha estimada para recoger en tienda</label>
+            <input type="date" name="date" id="date"> <br>
+            <br>
+            <br>
+			<label for="time">Hora estimada para recoger en tienda</label>
+            <input type="time" name="time" id="time"> <br>
+            <br>
+            <br>
+            <label for="textarea">En caso de ser envio, por favor proporciona la dirrecion</label>
+            <textarea name="textarea" id="textarea"></textarea> <br>
+            <br>
+            <br>
+		<input type="submit" value="Enviar">
+</form>
+	</section>
+  </main>
+	<footer id="footer">
+	  <h5 id="footerh5">Elaborado por Karla Itzel Rodriguez Palma </h5>
+	</footer>
+</body>
+</html>

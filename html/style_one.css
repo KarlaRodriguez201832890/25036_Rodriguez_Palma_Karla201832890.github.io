@@ -1,0 +1,140 @@
+@charset "utf-8";
+#cabecera {
+    width: 1280px;
+    height: 96px;
+    background-color: #631617;
+    color: #F1DFB8;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 54px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navegacion {
+    width: 1280px;
+    background-color: #F1DFB8;
+    height: auto;
+    color: #7F4D05;
+    font-size: large;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navulli{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+#navulli il a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-decoration: none;
+    text-shadow: 0px 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-style: normal;
+    border-style: none;
+    font-size: large;
+}
+
+#main {
+    background-color: #3D3C3C;
+    width: 1280px;
+    height: auto;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 20px;
+}
+#section {
+    width: 900px;
+    padding-top: 20px;
+    padding-right: auto;
+    padding-bottom: 20px;
+    height: auto;
+    marging: 20px auto;
+    background-color: #6A6868;
+    border-top-left-radius: 0px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    top: 50%;
+    padding-left: auto;
+}
+#sectionimg   {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#sectionp {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#footer {
+    width: 1280px;
+    height: 83px;
+    background-color: #631617;
+    color: #F1DFB8;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-top: -27px;
+}
+#footerh5 {
+    font-size: small;
+    padding-top: 26px;
+}
+#seccionh1 {	
+}
+a:visited{
+	color: #963300; 
+}
+a:link{
+	color: #631617;
+}
+a:hover{
+	color: #5A0019;
+	background-color: #ADADAD; 
+}
+#enlaceimga:hover{
+	background-color: transparent;
+}
+#h1 {
+}
+#sectionp {
+}
+#h1 {
+}
+#sectionp {
+}
+#h1 {
+}
+#sectionp {
+}
+#section {
+}
+#section {
+}
+#section {
+}
